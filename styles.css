@@ -23,65 +23,95 @@
     --transition: all 0.3s ease;
 }
 
-/* Theme Variants - New vibrant colors */
+/* Theme Variants - New vibrant colors with theme-specific backgrounds */
 :root[data-theme="vaporwave"] {
     --primary-color: #c2c2ff;
     --primary-dark: #8b8bff;
     --primary-light: #e0bfff;
+    --bg-primary: #1a0f2e;
+    --bg-secondary: #2d1b47;
+    --bg-tertiary: #3d2b57;
 }
 
 :root[data-theme="frozen_llama"] {
     --primary-color: #5dd9c1;
     --primary-dark: #2dbea8;
     --primary-light: #7ce8d4;
+    --bg-primary: #0f2b2a;
+    --bg-secondary: #1a3f3d;
+    --bg-tertiary: #2a5250;
 }
 
 :root[data-theme="strawberry"] {
     --primary-color: #ff6b7a;
     --primary-dark: #ff4757;
     --primary-light: #ff8a94;
+    --bg-primary: #3d0f12;
+    --bg-secondary: #571a1e;
+    --bg-tertiary: #6d2b2e;
 }
 
 :root[data-theme="creamsicle"] {
     --primary-color: #ffb366;
     --primary-dark: #ff9f43;
     --primary-light: #ffc399;
+    --bg-primary: #3d2410;
+    --bg-secondary: #53321a;
+    --bg-tertiary: #6b3f28;
 }
 
 :root[data-theme="lavender"] {
     --primary-color: #b19cd9;
     --primary-dark: #9d6ba8;
     --primary-light: #c9b4e0;
+    --bg-primary: #2e1a40;
+    --bg-secondary: #422857;
+    --bg-tertiary: #54356b;
 }
 
 :root[data-theme="peaches"] {
     --primary-color: #ffb088;
     --primary-dark: #ff8f5e;
     --primary-light: #ffc4a3;
+    --bg-primary: #3d2415;
+    --bg-secondary: #56341f;
+    --bg-tertiary: #6d4229;
 }
 
 :root[data-theme="mint"] {
     --primary-color: #98ff98;
     --primary-dark: #7ae97a;
     --primary-light: #b4ffb4;
+    --bg-primary: #0f3d0f;
+    --bg-secondary: #1a5a1a;
+    --bg-tertiary: #2a6d2a;
 }
 
 :root[data-theme="pink_lemonade"] {
     --primary-color: #ff69b4;
     --primary-dark: #ff1493;
     --primary-light: #ff85c1;
+    --bg-primary: #3d0f2e;
+    --bg-secondary: #571a47;
+    --bg-tertiary: #6d2b5e;
 }
 
 :root[data-theme="tiramisu"] {
     --primary-color: #d4a574;
     --primary-dark: #c8925f;
     --primary-light: #ddb892;
+    --bg-primary: #2d2015;
+    --bg-secondary: #3f2d1f;
+    --bg-tertiary: #533d2a;
 }
 
 :root[data-theme="mizu"] {
     --primary-color: #98bfe8;
     --primary-dark: #6fa3d1;
     --primary-light: #b5d4f5;
+    --bg-primary: #0f2540;
+    --bg-secondary: #1a3557;
+    --bg-tertiary: #2a456d;
 }
 
 /* ===========================
@@ -1000,46 +1030,11 @@ header h1 {
         grid-template-columns: 1fr;
     }
 
-    .charts-container {
-        grid-template-columns: 1fr;
-    }
-
-    .method h3 {
-        font-size: 1.2rem;
-    }
-
     .theme-grid {
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     }
 
-    .learn-container,
-    .statistics-container,
-    .settings-container {
-        padding: 1.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    .problem {
-        font-size: 1.5rem;
-        gap: 0.5rem;
-        padding: 0.75rem;
-    }
-
-    .number {
-        min-width: 3rem;
-    }
-
-    .operator,
-    .equals {
-        font-size: 1.2rem;
-    }
-
-    .question {
-        font-size: 1.2rem;
+    .charts-container {
+        grid-template-columns: 1fr;
     }
 }
