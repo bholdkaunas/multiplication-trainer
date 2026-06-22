@@ -501,6 +501,9 @@ header h1 {
     align-items: center;
     justify-content: center;
     font-family: 'JetBrains Mono', monospace;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 1;
 }
 
 .feedback.correct {
