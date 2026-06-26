@@ -2,6 +2,8 @@
 
 A responsive single-page web application for practicing 2-digit × 2-digit mental multiplication. Features speed tracking, learning materials, and advanced statistics with speedcubing-style rolling averages.
 
+DONE WITH THE HELP OF ARTIFICIAL INTELLIGENCE
+
 **Live Demo:** https://d1ovoo.github.io/multiplication-trainer/
 
 ---
